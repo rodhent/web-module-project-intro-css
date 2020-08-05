@@ -1,0 +1,87 @@
+* { 
+    box-sizing: border-box; 
+    padding:0; 
+    margin:0; 
+    max-width:100%;
+}
+
+body {
+    font-size:1.0rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace; 
+    
+}
+
+h1 {
+    font-family: 'Chelsea Market', sans-serif;
+    font-size:2.5rem;
+}
+
+a.plan-your-visit{
+    background-color:#FF764E;
+    display:inline-block;
+    border-radius:20px;
+    margin: 0 10%;
+    padding: 20px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+}
+
+a.learn-about-the-park{
+    background-color:#5ED3EB;
+    display:inline-block;
+    border-radius:20px;
+    margin: 0 10%;
+    padding: 20px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+}
+
+a.get-involded{
+    background-color:#FFCD69;
+    display:inline-block;
+    border-radius:20px;
+    margin: 0 10%;
+    padding: 20px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+}
+
+.pic-h {
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 60px;
+    display: inline;
+    width: 20%;
+}
+
+.h-text {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+}
+
+.h-title {
+    font-family: 'Chelsea Market', cursive;
+    display: inline-block;
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 200px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.h-sub1 {
+    font-size: 2.2rem;
+    display: inline-block;
+}
+
+.h-sub2 {
+    width: 450px;
+    font-size: 2.2rem;
+    display: inline-block;
+}
