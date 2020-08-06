@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+
+* { 
+    box-sizing: border-box; 
+    padding:0; 
+    margin:0; 
+    max-width:100%;
+    /** border:1px solid grey; **/
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-size:1.5rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', sans-serif; 
+}
+
+header {
+    display: inline-block;
+    padding: 40px;
+}
+
+h1, h2 {
+    font-family: 'Chelsea Market', sans-serif;
+    font-size:4.5rem;
+    letter-spacing: 5px;
+}
+
+.h2-text{
+    margin: 0 auto;
+    margin-left: 475px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+    width: 1900px;
+    margin-bottom: 50px;
+}
+
+a.plan-your-visit {
+    background-color:#FF764E;
+    display:inline-block;
+    width: 15rem;
+    border-radius:15px;
+    margin: 0 10%;
+    padding: 5px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+}
+
+a.plan-your-visit:hover{
+    background-color:#818181;
+    color:white;
+}    
+
+a.learn-about-the-park {
+    background-color:#5ED3EB;
+    display:inline-block;
+    width: 15rem;
+    border-radius:15px;
+    margin: 0 10%;
+    padding: 5px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+}
+
+a.learn-about-the-park:hover{
+    background-color:#818181;
+    color:white;
+}   
+
+a.get-involded {
+    background-color:#FFCD69;
+    display:inline-block;
+    width: 15rem;
+    border-radius:15px;
+    margin: 0 10%;
+    padding: 5px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+}
+
+a.get-involded:hover{
+    background-color:#818181;
+    color:white;
+}   
+
+.header-content {
+    width: 75vw;
+    margin: 0 auto;
+    display:inline-block;  
+}
+
+
+.pic-h {
+    height: 30vh;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 150px;
+
+}
+
+.h-tx1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+.content {
+    background-color: #DDB9A3;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px 60px;
+}
+
+p.c-text {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center; 
+    margin-bottom: 50px; 
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image2:hover{
+    background-color:black;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    background: #F9E7DC;
+}
+
+.footer-img {
+    object-fit: cover;
+    object-position: 20% 20%;
+    width: 100%;
+    height: 400px;
+}    
+
+.nav-footer {
+    padding: 30px;
+    margin-bottom: 0px;
+
+}
