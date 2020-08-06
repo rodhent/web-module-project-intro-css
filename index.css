@@ -70,16 +70,23 @@ header {
     padding: 40px;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Chelsea Market', sans-serif;
     font-size:4.5rem;
     letter-spacing: 5px;
 }
 
+.h2-text{
+    margin: 0 auto;
+    margin-left: 475px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 nav {
     text-align: center;
-    width: 90vw;
-    margin-bottom: 6vh;
+    width: 1900px;
+    margin-bottom: 50px;
 }
 
 a.plan-your-visit {
@@ -94,6 +101,11 @@ a.plan-your-visit {
     text-decoration: none;
 }
 
+a.plan-your-visit:hover{
+    background-color:#818181;
+    color:white;
+}    
+
 a.learn-about-the-park {
     background-color:#5ED3EB;
     display:inline-block;
@@ -106,6 +118,11 @@ a.learn-about-the-park {
     text-decoration: none;
 }
 
+a.learn-about-the-park:hover{
+    background-color:#818181;
+    color:white;
+}   
+
 a.get-involded {
     background-color:#FFCD69;
     display:inline-block;
@@ -117,6 +134,11 @@ a.get-involded {
     color:white;
     text-decoration: none;
 }
+
+a.get-involded:hover{
+    background-color:#818181;
+    color:white;
+}   
 
 .header-content {
     width: 75vw;
@@ -167,6 +189,19 @@ p.c-text {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 200px;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image2:hover{
+    background-color:black;
+    
 }
 
 .bold {
