@@ -121,7 +121,7 @@ a.get-involded {
 .header-content {
     width: 75vw;
     margin: 0 auto;
-    display:flex;  
+    display:inline-block;  
 }
 
 
